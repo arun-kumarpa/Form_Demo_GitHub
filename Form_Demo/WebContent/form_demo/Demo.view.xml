@@ -1,0 +1,70 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+		controllerName="form_demo.Demo" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="   Registration Page    ">
+	
+    
+		<content>
+		<html:style>
+                 .myText1 {
+<!--background-color:green;  -->
+color:Black;
+padding:4px;
+textAlign="Right"
+hAlign="Center"
+   }
+          </html:style>
+		<VBox fitContainer="true" justifyContent="Center" alignItems="Center">
+	
+		
+		<Label class="myText1" text="First Name" />
+		<Input
+        id="fname"
+        type="Text"
+        placeholder="First Name..."
+        >
+        </Input>
+        
+        <Label text="Last Name" />
+		<Input
+        id="lname"
+        type="Text"
+        placeholder="Last Name..."
+        >
+        </Input>
+		
+		<Label text="Phone Number" />
+		<Input
+        id="phno"
+        type="Text"
+        placeholder="Phone Number..."
+        >
+        </Input>
+		
+	 <Label text="Email_Id" />
+		<Input
+        id="eid"
+        type="Text"
+        placeholder="Email_ID..."
+        >
+        </Input>
+        
+        <Button type="Accept"
+            text="Submit"
+            press="onPress"
+            ></Button>
+            
+            
+       
+           <!--  <Button type="Default"
+            text="JSON"
+            press="onPress"
+            ></Button> -->
+       
+        
+
+
+		 </VBox>
+     
+		</content>
+	</Page>
+</core:View>
