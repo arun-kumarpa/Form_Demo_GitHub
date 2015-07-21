@@ -55,11 +55,7 @@ hAlign="Center"
             
             
        
-           <Button type="Default"
-            text="JSON"
-            press="onPress"
-            ></Button> 
-       
+        
         
 
 
