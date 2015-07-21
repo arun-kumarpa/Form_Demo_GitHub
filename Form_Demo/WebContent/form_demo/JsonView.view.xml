@@ -25,16 +25,10 @@ hAlign="Center"
                 
                <Label  class="myText" id="idWl3" text=" " design="Bold" />
                <Label class="myText" id="idWl4" text=" " design="Bold" />
-            
-            
+    
             
             </VBox>
-            
-            
-            
-            
-            
-            
+     
 	 <!-- <Table items="{/myArray1}" insert="false" id="t1"> 
 		<headerToolbar> 
 		<Toolbar><Label text="Employee"/> </Toolbar> 
